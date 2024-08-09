@@ -1,9 +1,6 @@
 import { expect, test } from "vitest";
 import { treasureFinder } from "./main.js";
 
-import { expect, test } from "vitest";
-import { treasureFinder } from "./main.js";
-
 // Testing typical cases
 test("should return correct outcome and sum when numbers are present", () => {
     const result1 = treasureFinder("a1b2c3");
